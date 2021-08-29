@@ -54,10 +54,6 @@ async function sendEmail(recipient, subject, text) {
     })
 }
 
-function generateRecoveryEmail() {
-    return '';
-}
-
 module.exports = {
     sendEmail,
     verificationEmailTemplate,
