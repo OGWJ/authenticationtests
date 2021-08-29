@@ -2,3 +2,4 @@ auth/.env
 auth/node_modules
 client
 db
+requests

@@ -6,7 +6,7 @@ async function verifyUser(name) {
     updateUserVerificationStatus(name);
 }
 
-function createNewVerificationToken() {
+function createNewToken() {
     return crypto.randomBytes(60).toString('hex');
 }
 
@@ -39,7 +39,7 @@ module.exports = {
     verifyUser,
     assertUserExists,
     assertUserVerifed,
-    createNewVerificationToken,
+    createNewToken,
     getUserVerificationToken,
     updateUserVerificationToken
 }
