@@ -1,7 +1,2 @@
-# TODO:
-* html form
-* database of users
-* bcrypt encryption
-
-
-* SQL injection prevention
+# Yo
+Sketched out some ideas over the weekend to do with authentication. Feel free to have a look over them and roast me.
